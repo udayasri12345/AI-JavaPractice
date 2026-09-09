@@ -11,18 +11,14 @@ public class Current extends Account{
 
 	@Override
 	void withdraw(double amount) {
-		super.withdraw(amount);
 		System.out.println("Withdrawing:");
-		balance=balance-amount-100;
-		
+		balance=balance-amount-100;		
 	}
 
 	@Override
 	void deposit(double amount) {
-		super.deposit(amount);
 		System.out.println("Deposit");
 		balance=balance+amount+50;
-		
 	}
 	
 	String[] showLoanType()
