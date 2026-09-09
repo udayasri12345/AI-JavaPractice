@@ -33,3 +33,4 @@ public class Product {
 		product.printCategories(categories);
 	}
 }
+
